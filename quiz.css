@@ -1,0 +1,137 @@
+
+body{
+    background: linear-gradient(180deg,rgba(255,255, 255,0)15% ,rgba(255, 255, 255) 100%), url(yy.webp); 
+    background-size: cover;
+    overflow: scroll;
+}
+#home{
+    width:100%;
+    height:130vh;
+    padding-bottom: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.landing{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.landing p{
+    width: 500px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    width: 500px;
+    justify-content: center;
+    
+    
+}
+
+#landing-effec{
+    z-index: 1;
+    font-family: title;
+    font-weight: bolder;
+
+}
+
+.landing h1{
+    font-size: 50px;
+    font-family: 'Macondo', cursive;
+
+}
+
+.landing h2{
+    font-family: 'Princess Sofia', cursive;
+    position: fix;
+    font-size: 30px;
+    padding: 20 auto;
+
+}
+.landing h3{
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    letter-spacing: 4px;
+    font-weight: 800;
+    padding: 0px 20px;
+    color: rgb(176, 218, 255);
+    text-transform: uppercase;
+    border-radius: 2em;
+    text-shadow: 2px 2px 2px black;
+    
+
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 440px;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid rgba(255,255, 255, 0.3);
+    background: rgba(255,255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.card img{
+    width: 140px;
+    border-radius: 50%;
+
+}
+
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+
+}
+.card .links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+.card .links img hover{
+    background: #ff01cf;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
